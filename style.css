@@ -1,0 +1,60 @@
+
+    p  {
+padding: 0;
+margin : 0;
+box-sizing: 0;
+cursor: url(Coquette\ Aesthetic--cursor--SweezyCursors.png) , auto;
+}
+
+:root{
+    --bg-color : #3ba7ad;
+    --text-color:white;
+}
+body.dark{
+    --bg-color:white;
+    --text-color:#ffffff
+}
+h1{
+    color:var(--text-color)
+}
+
+body {
+    background-color:var(--bg-color);
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+nav div img {
+    width: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', sans-serif;
+    color :black;
+    font-weight: 600;
+    padding: 8px 0;
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 1px solid rgba(255, 166, 0, 0);
+}
+nav ul li a:hover {
+    color:orange;
+    border-bottom: 1px solid orange;
+
+    }
+    
+
+}
+
+
