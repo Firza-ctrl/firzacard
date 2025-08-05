@@ -98,6 +98,91 @@
       <img src="foto formal.jpg" alt="Foto Profil">
     </div>
   </div>
+  <!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Footer Hari Ini</title>
+  <style>
+    footer {
+      background-color: #1a1a1a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    .footer-section {
+      margin-bottom: 15px;
+    }
+
+    .footer-links a {
+      color: #aaa;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    .footer-links a:hover {
+      color: white;
+    }
+
+    .time-date {
+      font-size: 14px;
+    }
+
+    .quote {
+      font-style: italic;
+      margin-top: 10px;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-section time-date">
+      <div id="currentDate"></div>
+      <div id="currentTime"></div>
+    </div>
+
+    <div class="footer-section quote">
+      "Lakukan yang terbaik hari ini, karena besok belum tentu datang." 🌅
+    </div>
+
+    <div class="footer-section footer-links">
+      <a href="#home">Home</a> |
+      <a href="#about">About</a> |
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-section">
+      &copy; 2025 Footer Hari Ini - All Rights Reserved
+    </div>
+  </footer>
+
+  <!-- Script Jam & Tanggal -->
+  <script>
+    function updateDateTime() {
+      const now = new Date();
+      const days = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"];
+      const months = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];
+      
+      const day = days[now.getDay()];
+      const date = now.getDate();
+      const month = months[now.getMonth()];
+      const year = now.getFullYear();
+
+      d
+    }
+
+    updateDateTime();
+    setInterval(updateDateTime, 1000);
+  </script>
+
+</body>
+</html>
 
 </body>
 </html>
